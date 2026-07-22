@@ -22,7 +22,7 @@ jobs:
       - name: Apply verified local commit
         shell: bash
         env:
-          UPDATE_PAYLOAD: >-
+          UPDATE_PAYLOAD: |
             H4sIAAAAAAAAA+1WW29TRxDm2ZL/w0g8tI18nIudQJD6kAYiRRCJBloeUIXW54ztbfbsHvZiY8SP7zd7jh2g9CIEQlXPSI6dvczl
             m29mtlFvXi2MmynzasmqYn/ny8sB5OTkJH9DPv7G5vTO4fHR5OAAfyZy7nB6fHh4Z/EVfPmTpBCVh0nvXPy7c/+0/3Fw/xE5PqLS
             1TXb+OO944PJ6enhYVXdOz465fnp6WR6cnJwH0uzw/uT+Xx2cHSgpqeDb+1zL19Orh+dPbx6NK6rr2ijrf/pX9X/dDqZfFz/R5Mp
@@ -43,7 +43,7 @@ jobs:
             JGCSdxOGfaBS2V19cguINCnCFZmDcZn3zUaigN+h9HgMhKWDHiQq2W4uQj3ImEtTngKZy1IE3/pp1ksvvfTSSy+99NJLL7300ksv
             vfTSSy+99NJLL7308lnyB2sdiWEAKAAA
         run: |
-          echo "$UPDATE_PAYLOAD" | base64 --decode > /tmp/portfolio-update.tar.gz
+          echo "$UPDATE_PAYLOAD" | base64 --decode --ignore-garbage > /tmp/portfolio-update.tar.gz
           tar -xzf /tmp/portfolio-update.tar.gz -C .
           test -s README.md
           git config user.name "WenqiDing-CompFin"
