@@ -7,11 +7,16 @@ evidence from real markets.
 
 ## Featured Work
 
+**Application and CV link:** use only
+[quant-factor-research](https://github.com/WenqiDing-CompFin/quant-factor-research)
+as the primary project URL. The other repositories are supporting demonstrations,
+not competing headline projects.
+
 | Project | Role in the portfolio | What to review |
 |---|---|---|
 | [Reproducible Multi-Factor Equity Research](https://github.com/WenqiDing-CompFin/quant-factor-research) | Flagship research project | Point-in-time signal design, Rank IC, quantile tests, cost-aware backtest, regression tests, failure register, and reproducible artifacts |
-| [Quant Factor Lab](https://github.com/WenqiDing-CompFin/quant-factor-lab) | Interactive tutorial companion | Cross-market factor exploration, guided lessons, risk diagnostics, and the deployed Streamlit dashboard |
-| [Financial Time-Series Baseline](https://github.com/WenqiDing-CompFin/AAAI-Financial-TimeSeries) | Time-series research scaffold | Chronological train/validation/test design, validation-only model selection, held-out metrics, tests, and a documented path toward TimeCAP adaptation |
+| [Quant Factor Lab](https://github.com/WenqiDing-CompFin/quant-factor-lab) | Interactive demo | A deployed Streamlit interface for exploring the flagship project's factor workflow |
+| [Financial Time-Series Baseline](https://github.com/WenqiDing-CompFin/AAAI-Financial-TimeSeries) | Forecasting baseline / scaffold | Chronological train/validation/test design, validation-only model selection, held-out metrics, and reproducible tests |
 
 ## Research Principles
 
