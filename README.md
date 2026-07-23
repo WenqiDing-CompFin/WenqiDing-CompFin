@@ -14,9 +14,9 @@ not competing headline projects.
 
 | Project | Role in the portfolio | What to review |
 |---|---|---|
-| [Reproducible Multi-Factor Equity Research](https://github.com/WenqiDing-CompFin/quant-factor-research) | Flagship research project | Point-in-time signal design, Rank IC, quantile tests, cost-aware backtest, regression tests, failure register, and reproducible artifacts |
-| [Quant Factor Lab](https://github.com/WenqiDing-CompFin/quant-factor-lab) | Interactive demo | A deployed Streamlit interface for exploring the flagship project's factor workflow |
-| [Financial Time-Series Baseline](https://github.com/WenqiDing-CompFin/AAAI-Financial-TimeSeries) | Forecasting baseline / scaffold | Chronological train/validation/test design, validation-only model selection, held-out metrics, and reproducible tests |
+| [Reproducible Multi-Factor Equity Research](https://github.com/WenqiDing-CompFin/quant-factor-research) | Flagship research project | Synthetic pipeline validation plus official Fama-French factor and momentum-decile evidence, dependence-aware inference, failure analysis, and reproducible artifacts |
+| [Quant Factor Lab](https://github.com/WenqiDing-CompFin/quant-factor-lab) | [Interactive demo](https://quant-factor-lab-e5njhisnnujmsbatyy9dyz.streamlit.app/) | A clearly labeled synthetic Streamlit interface for exploring the flagship project's factor workflow |
+| [Financial Time-Series Baseline](https://github.com/WenqiDing-CompFin/AAAI-Financial-TimeSeries) | Forecasting baseline / scaffold | Synthetic harness plus an official aggregate-market held-out Ridge baseline; not a complete TimeCAP reproduction |
 
 ## Research Principles
 
@@ -28,11 +28,12 @@ not competing headline projects.
 
 ## Current Direction
 
-I am extending the factor research pipeline toward legally usable point-in-time
-market data, frozen out-of-sample evaluation, sector and size neutralization,
-and more realistic implementation-cost analysis. In parallel, I am developing
-the financial time-series repository from a rigorous baseline into a documented
-event-context modeling study.
+The current public evidence uses official aggregate factor and
+characteristic-sorted portfolios. The next research stage is security-level
+point-in-time data with frozen model selection, sector and size neutralization,
+and more realistic implementation-cost analysis. In parallel, the forecasting
+scaffold provides the evaluation harness required before any event-context model
+or TimeCAP-inspired extension can make a credible comparison.
 
 Python is my primary research language. The repositories above include setup
 instructions, automated tests, and generated outputs so reviewers can reproduce
