@@ -2,7 +2,7 @@
 
 Computational finance undergraduate focused on transparent, reproducible empirical research in equity factor investing and credit-risk machine learning.
 
-professional email：dingwenqi6@gmail.com
+professional email: dingwenqi6@gmail.com
 
 ## Research Interests
 
@@ -15,7 +15,7 @@ professional email：dingwenqi6@gmail.com
 - Python: pandas, NumPy, scikit-learn, statsmodels, LightGBM
 - Research: factor IC/ICIR, quantile returns, portfolio backtesting, performance attribution
 - Tools: Git, GitHub Actions, Streamlit, JupyterLab
-- Data: deterministic simulated panels (current); Tushare and Yahoo Finance integration (planned)
+- Data: deterministic simulated panels (default) and an experimental Tushare A-share adapter
 
 ## Featured Work
 
