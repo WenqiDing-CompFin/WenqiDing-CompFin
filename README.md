@@ -30,7 +30,6 @@ not competing headline projects.
 | [Quant Factor Lab](https://github.com/WenqiDing-CompFin/quant-factor-lab) | [Interactive demo](https://quant-factor-lab-e5njhisnnujmsbatyy9dyz.streamlit.app/) | A clearly labeled synthetic Streamlit interface for exploring the flagship project's factor workflow |
 | [Financial Time-Series Baseline](https://github.com/WenqiDing-CompFin/AAAI-Financial-TimeSeries) | Forecasting baseline / scaffold | Synthetic harness plus an official aggregate-market held-out Ridge baseline; not a complete TimeCAP reproduction |
 
-[TODO: add credit-risk-loan-prediction to the table once the repository is public]
 
 ## Current Data Boundary
 
@@ -51,6 +50,5 @@ My factor research repository currently uses a **deterministic simulated panel**
 - Multiple-testing controls and deflated performance measures
 - Credit-risk model interpretation and validation
 
-[TODO: add a short sentence about a specific course project or research goal]
 
 Python is my primary research language. The repositories above include setup instructions, automated tests, and generated outputs so reviewers can reproduce the work rather than relying on screenshots or unsupported performance claims.
