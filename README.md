@@ -2,8 +2,7 @@
 
 Computational finance undergraduate focused on transparent, reproducible empirical research in equity factor investing and credit-risk machine learning.
 
-[TODO: add university, major, and expected graduation year]
-[TODO: add a professional email or personal website if desired]
+professional email：dingwenqi6@gmail.com
 
 ## Research Interests
 
