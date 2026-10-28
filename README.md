@@ -19,21 +19,27 @@ professional email: dingwenqi6@gmail.com
 
 ## Featured Work
 
-**Application and CV link:** use only
-[quant-factor-research](https://github.com/WenqiDing-CompFin/quant-factor-research)
-as the primary project URL. The other repositories are supporting demonstrations,
-not competing headline projects.
+My main public research repository is
+[quant-factor-research](https://github.com/WenqiDing-CompFin/quant-factor-research).
+The other projects demonstrate complementary interfaces and forecasting methods.
+The projects most relevant to an application depend on the research question and
+the receiving program.
 
 | Project | Role in the portfolio | What to review |
 |---|---|---|
 | [Reproducible Multi-Factor Equity Research](https://github.com/WenqiDing-CompFin/quant-factor-research) | Flagship research project | Synthetic pipeline validation plus official Fama-French factor and momentum-decile evidence, dependence-aware inference, failure analysis, and reproducible artifacts |
 | [Quant Factor Lab](https://github.com/WenqiDing-CompFin/quant-factor-lab) | [Interactive demo](https://quant-factor-lab-e5njhisnnujmsbatyy9dyz.streamlit.app/) | A clearly labeled synthetic Streamlit interface for exploring the flagship project's factor workflow |
-| [Financial Time-Series Baseline](https://github.com/WenqiDing-CompFin/AAAI-Financial-TimeSeries) | Forecasting baseline / scaffold | Synthetic harness plus an official aggregate-market held-out Ridge baseline; not a complete TimeCAP reproduction |
+| [Financial Time-Series Baseline](https://github.com/WenqiDing-CompFin/AAAI-Financial-TimeSeries) | Forecasting baseline / scaffold | Synthetic harness plus a retrospective official aggregate-market Ridge comparison; historical availability is not verified and this is not a complete TimeCAP reproduction |
 
 
 ## Current Data Boundary
 
-My factor research repository currently uses a **deterministic simulated panel** to validate the research pipeline: leakage controls, chronological splits, transaction costs, and reproducibility. These results are pipeline evidence, not market alpha. The next planned step is to integrate real market data while preserving the same research interface.
+My factor research repository uses a **deterministic simulated stock panel** to
+exercise timing checks, transaction costs, and reproducibility. The stock-level
+simulation does not implement a train/validation/test split, and its results are
+pipeline evidence, not market alpha. A separate module analyzes official aggregate
+factor returns; it does not validate the stock-selection strategy. The A-share
+adapter is experimental and requires further point-in-time and execution checks.
 
 ## Research Principles
 
